@@ -1,0 +1,21 @@
+:root{ --background-color: #014421; --brown:#5c3d1e;
+} body{ background-color:  var(--background-color); font-family:"Tablet Gothic",Verdana; 
+    color:goldenrod; padding:0 21px; }/*no edge touchings*/
+     h1{ text-align:center; 
+        color :var(--brown);letter-spacing: 2px
+        ;  }
+        h2 {text-align:center; font-weight:normal;} hr {
+            border:none; border-top: 2px solid  var(--brown); } iframe{ display:block; 
+                max-width:100% ;} footer { text-align:center; color:#778;} button{
+                     background-color:blanchedalmond; color:#e2e5ed; border :none; padding: 11px 22px; 
+                     border-radius: 4px;; cursor:pointer; margin:6px;} 
+                     button:hover{background:#89df0a;} img{
+                        border-radius :9px; box-shadow:4px 4px 12px rgba(0,0,0,0.2);} table{ width:100%; border-collapse:collapse; 
+                            margin-top:17px;}
+                th{ background-color: var(--brown); color:#e2e5ed; 
+                    padding:11px; }td
+                    { padding:10px; 
+                        border:1px solif #ccc;} 
+    tr:nth-child(even){/*alt. rows i saw it in geeks by geeks*/
+        background-color: antiquewhite;
+    }
