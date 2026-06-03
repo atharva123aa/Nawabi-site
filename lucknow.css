@@ -1,0 +1,26 @@
+:root{ --background-color :#0a0a0a; --gold: #c9a84c;
+     --dark:#1a1a1b;} body{ font-family:"Ysabeau office" ,helvetica; font-weight:398; 
+        font-style:normal; 
+        background-color: var(--background-color); background-image:url("n.jpg") ; 
+        background-size: 398px; background-attachment: fixed; 
+color:var(--gold) 
+; padding: 0 19px;} /*damask is rly sick*/ /* TODOADD SOME SPECIAL EFFECTS LIUKE I ADDED TO MY KINTSUGI YSWS*/ H1{ TEXT-ALIGN :CENTER; 
+    letter-spacing: LEFT; FONT-SIZE: 2.6EM; COLOR:VAR(--gold);text-shadow:
+    0 0 8px rgba(201,168,76,0.4); }
+         h2{ text-align:center;font-weight : normal;  color:#a88a3c; letter-spacing:1px; }hr {
+           
+           border:none; border-top:1px solid var(--gold); margin:14px 0 
+           ;
+         }  
+ img{ border-radius: 8px;; box-shadow:0 0 14px rgba(201,168,76,0.3); 
+     border:1px solid var(--gold);} button{
+          background-color: transparent;
+     color:var(--gold); border:1px solid var(--gold); 
+     padding:9px 24px; 
+     border-radius: 3px; cursor:pointer; margin :5px; 
+     letter-spacing: 1px;} button:hover{ background-color: var(--gold); 
+          color:#0a0a0a; }/*gold fills in hover look nice  */
+           footer {text-align:center; 
+               margin-top:23px ; color:#a88a3c; font-size:0.93rem; letter-spacing:1px;} p{ line-height:1.8;}
+
+          
