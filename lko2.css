@@ -1,0 +1,5 @@
+:root{ --background-color: #f58665; --gold:#c9a84c; } body{
+     background-color: var(--background-color); background-image: url("n.jpg"); background-size:400px; 
+     background-attachment: fixed; color:var(--gold); padding:0 18px;} h1 { text-align:  center; 
+        color:var(--gold);  letter-spacing: 2.3px
+        ;}
