@@ -1,21 +1,22 @@
 :root{ --background-color: #014421; --brown:#5c3d1e;
 } body{ background-color:  var(--background-color); font-family:"Tablet Gothic",Verdana; 
-    color:goldenrod; padding:0 21px; }/*no edge touchings*/
+    color:goldenrod; padding:0 21px; background-image:url("n.jpg") ;background-size:409px; 
+background-attachment:fixed;}/*no edge touchings*/
      h1{ text-align:center; 
-        color :var(--brown);letter-spacing: 2px
-        ;  }
-        h2 {text-align:center; font-weight:normal;} hr {
-            border:none; border-top: 2px solid  var(--brown); } iframe{ display:block; 
-                max-width:100% ;} footer { text-align:center; color:#778;} button{
-                     background-color:blanchedalmond; color:#e2e5ed; border :none; padding: 11px 22px; 
+        color :#c9a84c;letter-spacing: 2px
+        ; text-shadow:0 0  8px rgba(201,168,76,0.3); }
+        h2 {text-align:center; font-weight:normal; font-style:italic; } hr {
+            border:none; border-top: 1px solid goldenrod; } iframe{ display:block; 
+                max-width:100% ;} footer { text-align:center; color:#a88a3c;} button{
+                     background-color:blanchedalmond; color:#cce; border :none; padding: 11px 22px; 
                      border-radius: 4px;; cursor:pointer; margin:6px;} 
-                     button:hover{background:#89df0a;} img{
-                        border-radius :9px; box-shadow:4px 4px 12px rgba(0,0,0,0.2);} table{ width:100%; border-collapse:collapse; 
-                            margin-top:17px;}
+                     button:hover{background:#c9a84c;} img{
+                        border-radius :9px; box-shadow:0 0 14px rgba(201,168,76,0.3);} table{ width:100%; border-collapse:collapse; 
+                            margin-top:17px;border: 1px solid var(--brown);}
                 th{ background-color: var(--brown); color:#e2e5ed; 
                     padding:11px; }td
                     { padding:10px; 
-                        border:1px solif #ccc;} 
+                        border:1px solid #ccc;} 
     tr:nth-child(even){/*alt. rows i saw it in geeks by geeks*/
-        background-color: antiquewhite;
+        background-color:rgba(92,61,30,0.3);
     }
