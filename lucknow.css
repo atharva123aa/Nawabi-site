@@ -21,7 +21,7 @@ color:var(--gold)
      border-radius: 3px; cursor:pointer; margin :5px; 
      letter-spacing: 1px;} button:hover{ background-color: var(--gold); 
           color:#0a0a0a; }/*gold fills in hover look nice  */
-           footer {text-align:center; 
+          a { text-decoration: none; color: inherit; } footer {text-align:center; 
                margin-top:23px ; color:#a88a3c; font-size:0.93rem; letter-spacing:1px;} p{ line-height:1.8;}
 
           
